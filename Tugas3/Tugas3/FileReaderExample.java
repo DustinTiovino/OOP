@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class FileReaderExample{
     public static void main(String[] args) {
-        String fileName = "FileReaderExample.txt"; // Ganti dengan nama file yang sesuai
+        String fileName = "File.txt"; // Ganti dengan nama file yang sesuai
 
         try {
             String isiFile = bacaFile(fileName);
