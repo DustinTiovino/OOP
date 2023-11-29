@@ -5,9 +5,9 @@ import java.io.FileReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class FileReaderExample{
+public class pembacafile {
     public static void main(String[] args) {
-        String fileName = "File.txt"; // Ganti dengan nama file yang sesuai
+        String fileName = "File.txt"; 
 
         try {
             String isiFile = bacaFile(fileName);
